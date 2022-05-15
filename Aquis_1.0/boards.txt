@@ -1,0 +1,51 @@
+# Copyright (c) 2014-2015 Arduino LLC.  All right reserved.
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+menu.cache=Cache
+menu.speed=CPU Speed
+menu.opt=Optimize
+menu.maxspi=Max SPI
+menu.maxqspi=Max QSPI
+
+# Aquis
+# ------------------------------
+aquis.name=Aquis
+aquis.vid.0=0x239A
+aquis.pid.0=0x801E
+aquis.vid.1=0x239A
+aquis.pid.1=0x001E
+aquis.upload.tool=bossac
+aquis.upload.protocol=sam-ba
+aquis.upload.maximum_size=262144
+aquis.upload.offset=0x2000
+aquis.upload.use_1200bps_touch=true
+aquis.upload.wait_for_upload_port=true
+aquis.upload.native_usb=true
+aquis.build.mcu=cortex-m0plus
+aquis.build.f_cpu=48000000L
+aquis.build.usb_product="Aquis"
+aquis.build.usb_manufacturer="Aquis"
+aquis.build.board=Aquis
+aquis.build.core=arduino
+aquis.build.extra_flags=-DCRYSTALLESS -DADAFRUIT_TRINKET_M0 -D__SAMD21E18A__ -DARM_MATH_CM0PLUS {build.usb_flags}
+aquis.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+aquis.build.openocdscript=openocd_scripts/trinket_m0.cfg
+aquis.build.variant=aquis
+aquis.build.variant_system_lib=
+aquis.build.vid=0x239A
+aquis.build.pid=0x801E
+aquis.bootloader.tool=openocd
+aquis.bootloader.file=trinketM0/bootloader-trinket_m0-v2.0.0-adafruit.5.bin

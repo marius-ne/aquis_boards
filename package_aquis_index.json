@@ -9,17 +9,17 @@
         "platforms":
         [
           {
-            "name": "SpaceTeamAachen Aquis",
+            "name": "Aquis",
             "architecture": "samd",
             "version": "1.0",
             "category": "Contributed",
             "url": "https://github.com/marius-ne/aquis_boards/blob/master/Aquis_1.0.zip?raw=true",
             "archiveFileName": "Aquis_1.0.zip",
-            "checksum": "SHA-256:4dfb91241e7235c2530c8d803224978c3a8a7322abd6c6acfa07bde8c279c016",
-            "size": "16008735",
+            "checksum": "SHA-256:5f757907d36db5cebcc40f86f6158b7d2a3c0584d5e18a983240a51ac9d86c4f",
+            "size": "5757620",
             "boards": [
               {
-                "name": "SpaceTeamAachen Aquis"
+                "name": "Aquis"
               }
             ],
             "toolsDependencies": [
