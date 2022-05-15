@@ -2,7 +2,7 @@
     "packages":
     [
       {
-        "name": "SpaceTeamAachen Aquis",
+        "name": "Aquis",
         "maintainer": "Marius Neuhalfen",
         "websiteURL": "https://www.spaceteamaachen.de/",
         "email" : "info@sta.rwth-aachen.de",
@@ -41,7 +41,7 @@
                 {
                   "packager": "arduino",
                   "name": "openocd",
-                  "version": "0.10.0-arduino7"
+                  "version": "0.10.0-arduino9"
                 },
                 {
                   "packager": "adafruit",
