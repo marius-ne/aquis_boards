@@ -39,9 +39,9 @@
                   "version": "1.8.0-48-gb176eee"
                 },
                 {
-                  "packager": "arduino",
+                  "packager": "Aquis",
                   "name": "openocd",
-                  "version": "0.10.0-arduino9"
+                  "version": "0.11.0"
                 },
                 {
                   "packager": "adafruit",
