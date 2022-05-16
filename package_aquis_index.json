@@ -39,9 +39,9 @@
                   "version": "1.8.0-48-gb176eee"
                 },
                 {
-                  "packager": "arduino",
-                  "name": "openocd",
-                  "version": "0.10.0-arduino9"
+                  "packager": "openocd-org",
+                  "name": "openocd-workaround",
+                  "version": "0.11.0"
                 },
                 {
                   "packager": "adafruit",
