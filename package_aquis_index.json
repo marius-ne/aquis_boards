@@ -41,7 +41,7 @@
                 {
                   "packager": "Aquis",
                   "name": "openocd",
-                  "version": "0.10.0-arduino9"
+                  "version": "0.10.0-arduino7"
                 },
                 {
                   "packager": "adafruit",
@@ -67,8 +67,8 @@
             "category": "Contributed",
             "url": "https://github.com/marius-ne/aquis_boards/blob/master/Aquis_1.1.zip?raw=true",
             "archiveFileName": "Aquis_1.1.zip",
-            "checksum": "SHA-256:021e76ec8762d953d45b75d890c0fa8a9753d0eb4d92127e17c8fb17db406055",
-            "size": "5757631",
+            "checksum": "SHA-256:45ba9f21fc5a22fc552daf816b7b5946c5498a3dac4b2e7a0a8eee9ffeb427fa",
+            "size": "5757984",
             "boards": [
               {
                 "name": "Aquis"
@@ -93,7 +93,7 @@
                 {
                   "packager": "Aquis",
                   "name": "openocd",
-                  "version": "0.10.0-arduino9"
+                  "version": "0.10.0-arduino7"
                 },
                 {
                   "packager": "Aquis",
@@ -155,14 +155,14 @@
           },
           {
             "name" : "openocd",
-            "version" : "0.10.0-arduino9",
+            "version" : "0.10.0-arduino7",
             "systems": [
               {
-                "size": "2190484",
-                "checksum": "SHA-256:f53f9a2b7f48a2ebc00ea9196bf559d15987d3779bcea4118ebec8925da5a1f6",
+                "size": "2016965",
+                "checksum": "SHA-256:f251aec5471296e18aa540c3078d66475357a76a77c16c06a2d9345f4e12b3d5",
                 "host":"i686-w64-mingw32",
-                "archiveFileName":"openocd-0.10.0-arduino9-static-i686-w64-mingw32.zip",
-                "url":"https://downloads.arduino.cc/tools/openocd-0.10.0-arduino9-static-i686-w64-mingw32.zip"
+                "archiveFileName":"openocd-0.10.0-arduino7-static-i686-w64-mingw32.zip",
+                "url":"https://downloads.arduino.cc/tools/openocd-0.10.0-arduino7-static-i686-w64-mingw32.zip"
               }
             ]
           },
