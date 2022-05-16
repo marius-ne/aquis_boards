@@ -40,8 +40,8 @@
                 },
                 {
                   "packager": "arduino",
-                  "name": "openocd-workaround",
-                  "version": "0.11.0"
+                  "name": "openocd",
+                  "version": "0.10.0-arduino9"
                 },
                 {
                   "packager": "adafruit",
