@@ -41,7 +41,7 @@
                 {
                   "packager": "Aquis",
                   "name": "openocd",
-                  "version": "0.11.0"
+                  "version": "0.10.0-arduino9"
                 },
                 {
                   "packager": "adafruit",
@@ -64,14 +64,14 @@
         "tools" : [
           {
             "name" : "openocd",
-            "version" : "0.11.0",
+            "version" : "0.10.0-arduino9",
             "systems": [
               {
-                "size": "5234080",
-                "checksum": "SHA-256:b195e3c3e9fe3f4fe9dfd9780ff08336ef8ed3015a76cc883d9e21e57c456f33",
+                "size": "2190484",
+                "checksum": "SHA-256:f53f9a2b7f48a2ebc00ea9196bf559d15987d3779bcea4118ebec8925da5a1f6",
                 "host":"i686-w64-mingw32",
-                "archiveFileName":"openocd-v0.11.0-i686-w64-mingw32.tar.gz",
-                "url":"https://github.com/openocd-org/openocd/releases/download/v0.11.0/openocd-v0.11.0-i686-w64-mingw32.tar.gz"
+                "archiveFileName":"openocd-0.10.0-arduino9-static-i686-w64-mingw32.zip",
+                "url":"https://downloads.arduino.cc/tools/openocd-0.10.0-arduino9-static-i686-w64-mingw32.zip"
               }
             ]
           }
