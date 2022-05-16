@@ -39,7 +39,7 @@
                   "version": "1.8.0-48-gb176eee"
                 },
                 {
-                  "packager": "openocd-org",
+                  "packager": "arduino",
                   "name": "openocd-workaround",
                   "version": "0.11.0"
                 },
