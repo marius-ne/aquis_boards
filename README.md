@@ -14,3 +14,13 @@ Add the json location (https://raw.githubusercontent.com/marius-ne/aquis_boards/
 
 - 1.0: contains an exact copy of the trinket m0 variant.cpp and variant.h files. Is used for testing the implementation into the Arduino IDE.
 - 1.1: contains an edited version of the trinket m0 variant files to try out changing the mapping of the pins (switching A1 and A2).
+
+## How to create new version
+
+- 1.: copy previous folder version and make desired edits in variant files.
+- 2.: edit version number in platform.txt.
+- 3.: create zip file and invoke CRC-256.
+- 4.: create new version in package index.
+- 5.: copy CRC and size into package index.
+- 6.: git add, commit and push into repo.
+- 7.: update README.
