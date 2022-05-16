@@ -41,7 +41,7 @@
                 {
                   "packager": "arduino",
                   "name": "openocd",
-                  "version": "0.10.0-arduino9"
+                  "version": "0.11.0"
                 },
                 {
                   "packager": "adafruit",
@@ -63,7 +63,7 @@
         ],
         "tools" : [
           {
-            "name" : "openocd-workaround",
+            "name" : "openocd",
             "version" : "0.11.0",
             "systems": [
               {
