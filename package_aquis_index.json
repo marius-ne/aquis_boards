@@ -76,17 +76,17 @@
             ],
             "toolsDependencies": [
                 {
-                  "packager": "adafruit",
+                  "packager": "Aquis",
                   "name": "arm-none-eabi-gcc",
                   "version": "9-2019q4"
                 },
                 {
-                  "packager": "arduino",
+                  "packager": "Aquis",
                   "name": "bossac",
                   "version": "1.7.0-arduino3"
                 },
                 {
-                  "packager": "adafruit",
+                  "packager": "Aquis",
                   "name": "bossac",
                   "version": "1.8.0-48-gb176eee"
                 },
@@ -96,17 +96,17 @@
                   "version": "0.10.0-arduino9"
                 },
                 {
-                  "packager": "adafruit",
+                  "packager": "Aquis",
                   "name": "CMSIS",
                   "version": "5.4.0"
                 },
                 {
-                  "packager": "adafruit",
+                  "packager": "Aquis",
                   "name": "CMSIS-Atmel",
                   "version": "1.2.2"
                 },
                 {
-                  "packager": "arduino",
+                  "packager": "Aquis  ",
                   "name": "arduinoOTA",
                   "version": "1.2.1"
                 }
@@ -114,6 +114,45 @@
           }
         ],
         "tools" : [
+          {
+            "name": "arm-none-eabi-gcc",
+            "version": "9-2019q4",
+            "systems": [
+              {
+                "host": "arm-linux-gnueabihf",
+                "url": "https://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+                "archiveFileName": "gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+                "checksum": "SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+                "size": "96613739"
+              }
+            ]
+          },
+          {
+            "name": "bossac",
+            "version": "1.7.0-arduino3",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "https://downloads.arduino.cc/tools/bossac-1.7.0-arduino3-windows.tar.gz",
+                "archiveFileName": "bossac-1.7.0-arduino3-windows.tar.gz",
+                "checksum": "SHA-256:62745cc5a98c26949ec9041ef20420643c561ec43e99dae659debf44e6836526",
+                "size": "3607421"
+              }
+            ]
+          },
+          {
+            "name": "bossac",
+            "version": "1.8.0-48-gb176eee",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "https://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
+                "archiveFileName": "bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
+                "checksum": "SHA-256:4523a6897f3dfd673fe821c5cfbac8d6a12782e7a36b312b9ee7d41deec2a10a",
+                "size": "91219"
+              }
+            ]
+          },
           {
             "name" : "openocd",
             "version" : "0.10.0-arduino9",
@@ -124,6 +163,45 @@
                 "host":"i686-w64-mingw32",
                 "archiveFileName":"openocd-0.10.0-arduino9-static-i686-w64-mingw32.zip",
                 "url":"https://downloads.arduino.cc/tools/openocd-0.10.0-arduino9-static-i686-w64-mingw32.zip"
+              }
+            ]
+          },
+          {
+            "name": "CMSIS",
+            "version": "5.4.0",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+                "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+                "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+                "size": "153772853"
+              }
+            ]
+          },
+          {
+            "name": "CMSIS-Atmel",
+            "version": "1.2.2",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.2/CMSIS-Atmel-1.2.2.tar.bz2",
+                "archiveFileName": "CMSIS-Atmel-1.2.2.tar.bz2",
+                "checksum": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
+                "size": "2511228"
+              }
+            ]
+          },
+          {
+            "name": "arduinoOTA",
+            "version": "1.2.1",
+            "systems": [
+              {
+                "size": "2133779",
+                "checksum": "SHA-256:2ffdf64b78486c1d0bf28dc23d0ca36ab75ca92e84b9487246da01888abea6d4",
+                "host": "i686-linux-gnu",
+                "archiveFileName": "arduinoOTA-1.2.1-linux_386.tar.bz2",
+                "url": "https://downloads.arduino.cc/tools/arduinoOTA-1.2.1-linux_386.tar.bz2"
               }
             ]
           }
