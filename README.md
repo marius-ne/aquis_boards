@@ -4,6 +4,18 @@ Arduino definition files for the SpaceTeamAachen Aquis microcontrollers.
 ## package_aquis_index.json
 I added a workaround because the internal package_index.json that is shipped with the Arduino IDE uses an out-of-date version of the openocd tool. You can see it under the "tools" section. It just uses the up-to-date version of the one used by the Adafruit SAMD package index.
 
+## Multiplexing Table Explained
+I will try my best to explain this extremely cryptic piece of "code" because I was not able to find a coherent explanation anywhere else.
+The `const PinDescription g_APinDescription[]` array in variant.cpp holds the relevant pin assignments, i.e. how the Software you will write will access the functions the Microcontroller provides. Finding this out was not easy.
+
+The items in this array **represent an 8-bit register**. Namely the "PMUX" register you can find in section 23.8.12 of the ATSAMD datasheet. In looking there you will be surely wondering what "Peripheral function A-H" are supposed to be. Let's go even deeper, go to section 7.1 "Multiplexing and Considerations".
+
+Here you will find a list of all possible functions that your µC can provide. The aforementioned Peripheral functions are defined in columns A-H of this table. Thus the value written to the PMUX register determines the function this pin will provide. 
+
+Now the last piece of the puzzle: The implementation of these Perpipheral functions for use in the variant.cpp table. In the variant.h file you will see `WVariant.h` being included. Googling this will lead you to this [file](https://github.com/arduino/ArduinoCore-samd/blob/master/cores/arduino/WVariant.h) where these are defined. 
+
+So your job: Using the Multiplexing table in the datasheet to find out the functions of the pins on your board, connecting these to the definitions in the WVariant.h and lastly making the PMUX register for that pin in variant.cpp.
+
 ## Installing
 
 You first <b>have to</b> install the "Arduino SAMD" package from the boards manager, this is strictly required.
